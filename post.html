@@ -1,0 +1,57 @@
+Do You know that You can use HTML in your WordPress comment? There are 14 elements You can use to prettify your comments. The elements are <code>a, abbr, acronym, b, blockquote, cite, code, del, em, i, q, s, strike, and strong</code>. Some of them might also have attribute(s) that can be modified.
+
+<h2>&lt;a&gt;</h2>
+
+<blockquote cite='https://www.w3schools.com/tags/tag_a.asp'> The &lt;a&gt; tag defines a hyperlink, which is used to link from one page to another. The most important attribute of the &lt;a&gt; element is the href attribute, which indicates the link's destination.</blockquote>
+
+In WordPress comment, this element has 2 attributes that can be used they are <code>href</code> and <code>title</code>. Fill the <code>href</code> attribute with some kind of <abbr title="Uniform Resource Locator">URL</abbr> and <code>title</code> attribute with a related title <q cite='https://www.w3schools.com/html/html_attributes.asp'> Specifies extra information about an element (displayed as a tool tip) </q>.
+
+<h2>&lt;abbr&gt; &amp; &lt;acronym&gt;</h2>
+
+<blockquote cite="https://www.w3schools.com/tags/tag_abbr.asp"><p>The &lt;abbr&gt; tag defines an abbreviation or an acronym, like "Mr.", "Dec.", "ASAP", "ATM".</p><p><b>Tip</b>: An abbreviation and an acronym are both shortened versions of something else. Both are often represented as a series of letters.</p><p>Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</p></blockquote>
+
+The elements have one and only attribute that can be used for the comment and that is <code>title</code>. This attribute works the same behavior with &lt;a&gt; tag, when You hover it, the tool tip will show You content of the title. Those tags are similar, probably the same, but when You are writing your own HTML page You might want to use only <code>abbr</code> tag. because...
+
+<blockquote cite='https://www.w3schools.com/tags/tag_acronym.asp'><span style='color:red;'>The &lt;acronym&gt; tag is not supported in HTML5. Use the &lt;abbr&gt; tag instead.</span></blockquote>
+
+<h2>&lt;b&gt;, &lt;strong&gt;, &lt;i&gt; &amp; &lt;em&gt;</h2>
+
+These elements are <q cite='https://www.w3schools.com/html/html_formatting.asp'>Formatting elements</q>. &lt;b&gt; similar with &lt;strong&gt;, &lt;i&gt; similar with &lt;em&gt;. &lt;b&gt; means <b>b</b>old, &lt;strong&gt; also bold but <q cite='https://www.w3schools.com/html/html_formatting.asp'> with added semantic "strong" importance</q>. &lt;i&gt; means <i>i</i>talic, &lt;em&gt; also italic but <q cite='https://www.w3schools.com/html/html_formatting.asp'>with added semantic importance</q>.
+
+Here is some examples of combination from the elements.
+
+<code>no format</code> = no format.
+<code>&lt;b&gt;bold&lt;/b&gt; &lt;strong&gt;strong&lt;/strong&gt;</code> = <b>bold</b> <strong>strong</strong>.
+<code>&lt;i&gt;italic&lt;/i&gt; &lt;em&gt;em&lt;/em&gt;</code> = <i>italic</i> <em>em</em>.
+<code>This <i>sentence</i> is <strong>important</strong> but <em>not</em> as important as <b><i>this</i></b></code>.
+
+<h2>
+&lt;blockquote&gt;, &lt;q&gt; &amp; &lt;cite&gt;
+</h2>
+
+<blockquote cite='https://en.wikipedia.org/wiki/Quotation'> A quotation is the repetition of one expression as part of another one, particularly when the quoted expression is well-known or explicitly attributed by citation to its original source, and it is indicated by (punctuated with) quotation marks.</blockquote>
+
+Paragraph above is quoted from <cite>wikipedia</cite>. I use a special element to make the appearance different with other section. I use &lt;blockquote&gt;tag. &lt;blockquote&gt; and &lt;q&gt; tag are the same, the difference is &lt;blockquote&gt; used for a long quote, and &lt;quote&gt; for shorter version of quote. I personally use &lt;blockquote&gt; in a self paragraph, and &lt;q&gt; for quoting a sentence inside a paragraph.
+
+Those two tags, has an attribute that can be filled. The attribute is called <code>cite</code>, it usually has a value of a URL which means <q cite='https://www.w3schools.com/tags/tag_blockquote.asp'>Specifies the source of the quotation</q>. The attribute can be a self tag called &lt;cite&gt;, I haven't actually use it a lot, I just usually use the quoting tag directly, but for example most of my references is taken from <cite>w3schools.com</cite>.
+
+<h2>
+&lt;code&gt;
+</h2>
+
+I should love this element the most. This element is me, haha.<q cite='https://www.w3schools.com/tags/tag_code.asp'>The &lt;code&gt; tag is a phrase tag. It defines a piece of computer code.</q> This element make a block of text pretty different, if we take a look at other elements, this is the only element that change the background.
+
+This element has an <b>inline</b> display, so if You want to make the piece of code more visible You might want to add more spaces between before and after block.
+
+<h2>
+&lt;del&gt;, &lt;s&gt; and &lt;strike&gt;
+</h2>
+
+Last but not least, for a strike through decoration text we can use these elements. The only element that has attribute that can be modified is &lt;del&gt; element. The attribute is <code>datetime</code>, if You want a precise thing for you deletion thing, You can use this element with the attribute datetime even though the format is pretty hard to memorize <q cite='https://www.w3schools.com/tags/tag_del.asp'>YYYY-MM-DDThh:mm:ssTZD</q>.
+
+I don't use this kind of element so much, but maybe if You are working in a project and need versioning, You can use these element to mark that something has changed. Or, just use it to make your text noticeable in the comments.
+
+<hr />
+
+So, now is the time to try these elements in the comment. I haven't tried much
+but I might add a comment to this post after.

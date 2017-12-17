@@ -31,5 +31,27 @@ Basically this is the same thing like history I talked before but instead of fil
 I will not talk to deep about these two things because theoritically it's really complicated I just know a little in how to use it. I took me years to understand parts by parts of this technology so if You try to mastering these things I suggest You to play it slow don't rush anything. And now, this is how 
 I use them.
 
+<h2>Initializing Local Repository</h2>
 
+What is Repository (Git)? <q cite="https://www.sbf5.com/~cduan/technical/git/git-1.shtml">The purpose of Git is to manage a project, or a set of files, as they change over time. Git stores this information in a data structure called a <b>repository</b>.</q> So, repository is a thing :D. First, I have a directory that contains my files which I want to be versioned and the I initialize the repository using commands.
 
+<img src="https://yuulye.files.wordpress.com/2017/12/git-init.jpg" alt="git-init" width="564" height="546" class="alignnone size-full wp-image-69"/>
+
+The commands are:
+
+<ul>
+  <li>git init</li>
+  <li>git add .</li>
+  <li>git commit -m "<span style="color: gray;">comment</span>"</li>
+</ul>
+
+Okay, now I have a local repository, why local? because after this I'm going to make it online using Github. I go to github.com &rarr; New Repository &rarr; Fill the Repository name &rarr; Create repository, and the online Repository created, yay! This repository is empty, there will be sets of instructions on how to do next. For me, I will...
+
+<blockquote>
+<h3>push an existing repository from the command line</h3>
+
+<code>git remote add origin https://github.com/yuulye/yuulye.wordpress.com-posts.git
+git push -u origin master</code>
+</blockquote>
+
+After executing those commands my online repository is created, refresh the page and I have my files there. Now it's time to make some changes.
